@@ -1,10 +1,9 @@
 import React from 'react';
-import Auxiliary from '../../../containers/hoc/Auxiliary';
 import Classes from './Person.css'
 
 const Person = (props) => {
     return (
-        <Auxiliary>
+        <React.Fragment>
         <div className= {Classes.person}>
             <p onClick={props.click}>
                 My name is {props.name} & I'am {props.age} years old 
@@ -17,7 +16,7 @@ const Person = (props) => {
             />
             
         </div>
-        </Auxiliary>
+        </React.Fragment>
     )
 }
 
