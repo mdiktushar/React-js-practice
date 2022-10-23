@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Classes from './App.css'
 import Persons from '../components/Persons/Persons';
 import Cockpit from '../components/Cockpit/Cockpit';
+// import WithClass from '../HOC/WithClass';
 
 const App = (props) =>{
 
